@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Recents from "../components/sections/Portfolio/Recents/Recents";
+import Recents from "../components/sections/Portfolio/Recent/Recents";
 import Development from "../components/sections/Portfolio/Development/Development";
 import Testing from "../components/sections/Portfolio/Testing/Testing";
 

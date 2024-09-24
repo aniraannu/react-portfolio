@@ -68,7 +68,7 @@ function Skills() {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">
-                    Unit Testing and Test-Driven Development (TDD)
+                    Unit Testing and Test-Driven Development
                   </h3>
                 </div>
                 <div className="skills__bar">

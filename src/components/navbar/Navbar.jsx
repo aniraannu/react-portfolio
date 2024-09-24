@@ -77,7 +77,7 @@ function Navbar() {
       >
         <nav className="nav container">
           <a href="#home" className="nav__logo">
-            Vanessa
+            Anira Raveendran
           </a>
 
           {/*==================== Menu ====================*/}

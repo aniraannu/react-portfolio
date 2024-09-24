@@ -11,11 +11,11 @@ function Footer() {
           <div>
             <h1 className="footer__title">
               <a href="#home" className="footer__title">
-                Vanessa
+                Anira
               </a>
             </h1>
             <span className="footer__subtitle">
-              Bilingual Writer, Copyeditor, Proofreader, Translator
+              Software Developer, Senior Software Tester
             </span>
           </div>
 
