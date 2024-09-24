@@ -370,7 +370,7 @@ img {
   font-size: 1.25rem;
 }
 
-/*==================== BUTTONS ====================*/
+/*BUTTONS*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -395,7 +395,7 @@ img {
   align-items: center;
 }
 
-/*==================== ABOUT ====================*/
+/*ABOUT*/
 .about__img {
   width: 400px;
   border-radius: 0.5rem;
@@ -448,7 +448,7 @@ img {
   justify-content: center;
 }
 
-/*==================== SKILLS ====================*/
+/*SKILLS*/
 .skills__container {
   row-gap: 0;
 }
@@ -524,7 +524,7 @@ img {
     width: 95%;
 } */
 
-/*==================== QUALIFICATION ====================*/
+/*QUALIFICATION*/
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -591,11 +591,11 @@ img {
   /* position: absolute; */
 }
 
-/*==================== SERVICES ====================*/
+/*SERVICES*/
 
 /* Active Modal */
 
-/*==================== PORTFOLIO ====================*/
+/*PORTFOLIO*/
 .portfolio__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -635,11 +635,7 @@ img {
   color: var(--first-color);
 }
 
-/*==================== PROJECT IN MIND ====================*/
-
-/*==================== TESTIMONIAL ====================*/
-
-/*==================== CONTACT ME ====================*/
+/*CONTACT ME */
 .contact__container {
   row-gap: 3rem;
   display: flex;
@@ -696,7 +692,7 @@ img {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
-/*==================== FOOTER ====================*/
+/*FOOTER*/
 .footer {
   padding-top: 2rem;
 }
@@ -752,7 +748,7 @@ img {
   color: #fff;
 }
 
-/*========== SCROLL UP ==========*/
+/*SCROLL UP*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -781,7 +777,7 @@ img {
 
 /* Show scroll */
 
-/*========== SCROLL BAR ==========*/
+/*SCROLL BAR */
 ::-webkit-scrollbar {
   width: 0.6rem;
   background-color: var(--scroll-bar-color);
@@ -797,7 +793,7 @@ img {
   background-color: var(--scroll-thumb-color-active);
 }
 
-/*==================== MEDIA QUERIES ====================*/
+/*MEDIA QUERIES */
 /* For small devices */
 @media screen and (max-width: 350px) {
   .container {
