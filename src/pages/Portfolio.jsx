@@ -3,7 +3,7 @@ import Recents from "../components/sections/Portfolio/Recents/Recents";
 import Development from "../components/sections/Portfolio/Development/Development";
 import Testing from "../components/sections/Portfolio/Testing/Testing";
 
-function Porfolio() {
+function Portfolio() {
   const [categoryArray, setCategoryArray] = useState({
     recents: true,
     development: false,
@@ -95,4 +95,4 @@ function Porfolio() {
   );
 }
 
-export default Porfolio;
+export default Portfolio;

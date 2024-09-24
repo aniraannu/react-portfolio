@@ -7,7 +7,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollTop from "./components/scroll/ScrollTop";
-import Porfolio from "./pages/Porfolio";
+import Portfolio from "./pages/Portfolio";
 // import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Porfolio />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />
