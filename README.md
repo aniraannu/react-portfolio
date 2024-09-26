@@ -120,3 +120,6 @@ Inspiration, code snippets, etc.
 
 - [dbader](https://github.com/dbader/readme-template)
 - [webP](https://www.howtogeek.com/424677/what-is-a-webp-file-and-how-do-i-open-one/)
+- [freecodecamp](https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/)
+- [freecodecamp-blog](https://www.freecodecamp.org/news/build-portfolio-website-react/)
+- [Medium](https://medium.com/@thakshiladb2000/crafting-my-portfolio-website-using-react-js-a-beginners-journey-374e85b1a895)
