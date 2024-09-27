@@ -1,46 +1,67 @@
 import "../../../../App.css";
 
 //TODO: Images
-// import img from "./Assets/pp1.jpeg";
-// import img from "./Assets/pp2.jpeg";
-// import img from "./Assets/pp3.jpeg";
-// import img from "./Assets/pp4.jpeg";
+//Import all project images
+import Weatherapp from "./Assets/weather-dashboard.png";
+import JATEapp from "./Assets/JATE.png";
+import SupperAndSipapp from "./Assets/Supper&Sip.png";
+import SecondPlayapp from "./Assets/SecondPlay.png";
+import BookSearchEngineApp from "./Assets/BookSearchEngine.png";
+import EmployeeTrackerApp from "./Assets/EmployeeTracker.png";
 
-// //TODO: Routes
-// import route1 from "./Assets/pp1.pdf";
-// import route2 from "./Assets/pp2.pdf";
-// import route3 from "./Assets/pp3.pdf";
-// import route4 from "./Assets/pp4.pdf";
-
-// export const recentsFiles = [
-//   //
-//   {
-//     hexa: "var(--first-color)",
-//     title: "Project 1",
-//     description: "Description1",
-//     image: img,
-//     route: route1,
-//   },
-//   {
-//     hexa: "var(--first-color-lighter)",
-//     title: "Project 2",
-//     description: "Desc 2",
-//     image: img,
-//     route: route2,
-//   },
-//   {
-//     hexa: "var(--first-color-alt)",
-//     title: "Title 3",
-//     description: "Desc 3",
-//     image: img,
-//     route: route3,
-//   },
-//   //
-//   {
-//     hexa: "var(--first-color)",
-//     title: "Title 4",
-//     description: "Desc 4",
-//     image: img,
-//     route: route4,
-//   },
-// ];
+export const developmentFiles = [
+  {
+    hexa: "var(--first-color)",
+    title: "Weather Dashboard",
+    description:
+      "A simple web application that allows users to search for a city to get the current weather and 5 day forecast.",
+    image: Weatherapp,
+    repoLink: "https://github.com/aniraannu/weather-dashboard",
+    deployedLink: "https://aniraannu.github.io/weather-dashboard/",
+  },
+  {
+    hexa: "var(--first-color-lighter)",
+    title: "J.A.T.E",
+    description:
+      "J.A.T.E is a Progressive Web Application (PWA) that runs in the browser, offline and can be installed locally to your machine",
+    image: JATEapp,
+    repoLink: "https://github.com/aniraannu/PWA-text-editor",
+    deployedLink: "https://text-editor-6tq2.onrender.com/",
+  },
+  {
+    hexa: "var(--first-color-alt)",
+    title: "Supper And Sips",
+    description:
+      "An app to randomly choose dinner and drink recipes. The Random Recipe & Cocktail Generator is ideal for anyone who wants to try new but delicious recipes.",
+    image: SupperAndSipapp,
+    repoLink: "https://github.com/tjmcd2010/Supper-and-Sips",
+    deployedLink: "https://tjmcd2010.github.io/Supper-and-Sips/",
+  },
+  //Second Row
+  {
+    hexa: "var(--first-color)",
+    title: "SecondPlay",
+    description:
+      "This is a web application that allows users to sell their old gaming equipment and peripherals such as old playstations, XBOX consoles, Gameboys, controllers and games.",
+    image: SecondPlayapp,
+    repoLink: "https://github.com/ItsWillyNilly/Project-02-SecondPlay",
+    deployedLink: "https://project-02-secondplay.onrender.com/",
+  },
+  {
+    hexa: "var(--first-color-lighter)",
+    title: "Search Engine for Books",
+    description:
+      "A React application that allows users to search for books using the Google Books API, save books to their account, and view their saved books. It leverages React Bootstrap for UI components and Apollo Client for interacting with a GraphQL API.",
+    image: BookSearchEngineApp,
+    repoLink: "https://github.com/aniraannu/book-search-engine",
+    deployedLink: "https://book-finder-m6ty.onrender.com/",
+  },
+  {
+    hexa: "var(--first-color-alt)",
+    title: "Employee Tracker",
+    description:
+      "A command-line application using Node.js, Inquirer, and PostgreSQL that dynamically updates and views a company's employee database.",
+    image: EmployeeTrackerApp,
+    repoLink: "https://github.com/aniraannu/employee-tracker",
+  },
+];

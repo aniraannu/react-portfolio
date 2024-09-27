@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Zoom } from "@mui/material";
 import Card from "../../../card/Card.jsx";
-//import { recentsFiles } from "./recents-files.js";
+import { recentsFiles } from "./recents-files.js";
 
 function Recents() {
   return (
@@ -9,7 +9,11 @@ function Recents() {
       <div className="portfolio__sections">
         {recentsFiles.map((website, index) => (
           <Zoom in={true} timeout={700} key={index}>
-            <a href={website.route} target="_blank" rel="noreferrer">
+            <a
+              href={website.repoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card
                 key={website.description}
                 hexa={website.hexa}

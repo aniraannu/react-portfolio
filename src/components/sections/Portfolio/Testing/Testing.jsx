@@ -9,7 +9,11 @@ function Testing() {
       <div className="portfolio__sections">
         {testingFiles.map((website, index) => (
           <Zoom in={true} timeout={700} key={index}>
-            <a href={website.route} target="_blank" rel="noreferrer">
+            <a
+              href={website.repoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Card
                 key={website.description}
                 hexa={website.hexa}
