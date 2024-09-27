@@ -22,6 +22,27 @@ This portfolio app is a fully responsive web application built with React and Vi
 
 This portfolio not only highlights my work but also serves as a demonstration of my technical skills and commitment to modern web development practices. I am excited to share my journey and projects with you through this platform!
 
+The homepage of the application is shown in the following screenshot:
+![Home Page](./Assets/images/Home-page.png)
+
+There is a about section to give a small talk about myself and anyone can download my resume using DownloadCV button located in this page.
+![About Page](./Assets/images/About.png)
+![DownloadCV](./Assets/images/Download%20CV.png)
+
+My skill sets are listed in the Skills section
+![Skills Page](./Assets/images/Skills.png)
+
+There's a portfolio section that lists some of the projects I have done, this section has 3 major categories
+
+- Recent
+- Development
+- Testing
+
+![Projects Page](./Assets/images/Portfolio.png)
+
+The last section is the contacts page
+![Contact Me](./Assets/images/Contact-me.png)
+
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -113,6 +134,11 @@ Anira Raveendran
 ## License
 
 None
+
+## Links
+
+GitHub: https://github.com/aniraannu/react-portfolio
+Deployed Application: https://aniraraveendran.netlify.app/
 
 ## Acknowledgments
 
